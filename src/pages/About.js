@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./About.css";
-import skuldshao from "/Users/skuldshao/to-do-list_week1-skuldshao/src/assets/skuldshao.png";
+import skuldshao from "../assets/skuldshao.png";
   
 export default class About extends Component {
   render() {
