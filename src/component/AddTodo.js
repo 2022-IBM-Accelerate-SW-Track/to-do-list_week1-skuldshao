@@ -53,7 +53,6 @@ class AddTodo extends Component {
           variant="contained"
           color="primary"
           data-testid="new-item-button"
-          
         >
           Add
         </Button>
