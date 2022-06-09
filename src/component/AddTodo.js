@@ -46,16 +46,18 @@ class AddTodo extends Component {
           value={this.state.content}
           data-testid="new-item-input"
         />
-     
+     <div data-testid='new-item-button'>
         <Button
           style={{ marginLeft: "10px" }}
           onClick={this.handleSubmit}
           variant="contained"
           color="primary"
-          data-testid="new-item-button"
+          //data-testid="new-item-button"
+          
         >
           Add
         </Button>
+        </div>
 
       </div>
     );
